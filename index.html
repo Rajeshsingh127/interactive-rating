@@ -17,15 +17,10 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
-    <!-- How did we do? Please let us know how we did with your support request. All
-    feedback is appreciated to help us improve our offering! 1 2 3 4 5 Submit
-    You selected
 
-    out of 5 Thank you! We appreciate you taking the time to give a rating. If
-    you ever need more support, don’t hesitate to get in touch! -->
+  <body>
     <main>
-      <div class="card">
+      <div class="card main">
         <div class="circle">
           <img src="./images/icon-star.svg" />
         </div>
@@ -90,22 +85,20 @@
       </div>
 
       <!-- the second part of rating -->
-      <!-- <div class="card">
-        <img src="./images/icon-star.svg" />
-        <h1>How did we do ?</h1>
-        <p>
-          Please let us know how we did with your support request. All feedback
-          is appreciated to help us improve our offering!
-        </p>
-        <div class="rating">
-          <a href="#" class="rating-point circle">1</a>
-          <a href="#" class="rating-point circle">2</a>
-          <a href="#" class="rating-point circle">3</a>
-          <a href="#" class="rating-point circle">4</a>
-          <a href="#" class="rating-point circle">5</a>
+      <div class="card hidden">
+        <img src="./images/illustration-thank-you.svg" class="thank-you" />
+        <div class="selection-disp">
+          <p class="rating-txt">
+            You selected <span id="rating"> </span> out of 5
+          </p>
         </div>
-        <button class="card-submit">SUBMIT</button>
-      </div> -->
+        <h2>Thank you!</h2>
+        <p class="appre">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
     </main>
+    <script src="./script.js"></script>
   </body>
 </html>

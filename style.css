@@ -92,6 +92,17 @@ p{
     font-size: .9rem;
 }
 
+.rating input[type="radio"]:hover + label{
+    background-color: var(--LightGrey);
+    color: var(--White);
+}
+
+.rating input[type="radio"]:checked + label{
+    background-color: var(--Orange);
+    color: var(--White);
+}
+
+
 .card-submit{
     cursor: pointer;
     border: 2rem;
@@ -103,4 +114,59 @@ p{
     border: none;
     border-radius: 2rem;
     font-weight: 00;
+}
+
+.card-submit:hover{
+    background-color: var(--White);
+    color: var(--Orange);
+}
+
+
+
+/* thank you part css s*/
+.thank-you{
+    height: auto;
+    max-width: 9.5rem;
+    display: block;
+    /* border: 2px solid red; */
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.rating-txt{
+    background-color: var(--DarkBlue);
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    padding: .8rem;
+    border-radius: 2rem;
+    color: var(--Orange);
+    line-height: 10px;
+}
+
+.selection-disp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.4rem;
+}
+
+
+h2{
+    text-align: center;
+    margin: .8rem 0;
+    color: var(--White);
+
+}
+
+.appre{
+    text-align: center;
+    margin-bottom: .9rem;
+}
+
+.hidden{
+    display: none;
 }
